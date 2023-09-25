@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Cantora One', sans-serif;
+}
+
+p
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+body 
+{ 
+    padding-top: 120px; 
+}
+
+
+    
+
+.box-img1 img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+  }
+  
+section.one {
+    padding: 50px 0px;
+}
+  
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+  }
+  
+  .carousel-item {
+    height: 60vh;
+  }
+  
+  .bandeau {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    background-color: #FEFEFE;
+  }
+  
+  
+  .bandeau img {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9700px;
+    margin: auto;
+    width: 150vh;
+  }
+  
+  .breadcrumb a
+  {
+    text-decoration: none;
+    color: orange;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box2 {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+  }
+  
+  
+
+/*--------------------------------  HEADER --------------------------------*/
+.navbar-expand-lg 
+{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: white;
+}
+  
+.navbar-expand-lg .navbar-collapse 
+{
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+  }
+
+
+
+  
+  /*---------------------------------FOOTER --------------------------------*/
+  footer ul 
+  {
+    padding: 0;
+  }
+  
+  footer li
+  {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  footer a 
+  {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  footer a:hover
+  
+  {
+    color: #F07844;
+  }
+  
+  
+  footer img
+  {
+    width: 20vh;
+  }
+  
+  
+  /* Style all font awesome icons */
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .footer_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0 !important;
+    background-color: #000;
+}
+  
+.footer_bottom-p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.0rem;
+    line-height: 1.7;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+  
+
+  /*-------------------------------------------------------------------- PAGE ACCUEIL ---------------------------------------------------------------*/ 
+  
+  
+.carousel-caption {
+    text-align: end !important;
+}
+  
+.carousel-item img
+{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9700px;
+    margin: auto;
+    width: 150vh;
+}
+  
+.text-left
+{
+    text-align: left;
+    padding-top: 2rem;
+    height: 50vh;
+}
+
+.text-right
+{
+    padding-top: 2rem;
+    height: 50vh;
+ }
+
+
+  /*--------------------------------------------------------------------PAGE GALLERY CHATS ----------------------------------------------------------*/
+  
+  .gallery {
+    padding: 50px 0px;
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 8fr));
+  }
+  
+  .img-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0px;
+    width: 30vh;
+  }
+  
+  .img-wrapper > img {
+    display: block;
+    width: 30vh;
+    aspect-ratio: 1 / 1 ;
+    object-position: center;
+  }
+  
+  .img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 200ms ease-in-out;
+  }
+  
+  .img-wrapper:hover > img.blur {
+    filter: blur(5px);
+  }
+  
+  .img-wrapper:hover > img.gray {
+    filter: grayscale(1);
+  }
+  
+  .img-wrapper:hover > img.zoom {
+    transform: scale(1.1);
+  }
+  
+  .img-wrapper > .content.fade {
+    opacity: 0;
+  }
+  .img-wrapper:hover > .content.fade {
+    opacity: 1;
+  }
+  
+  .img-wrapper > .content.slide-left {
+    transform: translateX(-100%);
+  }
+  .img-wrapper:hover > .content.slide-left {
+    transform: translateX(0);
+  }
+  
+  .img-wrapper > .content.slide-right {
+    transform: translateX(100%);
+  }
+  .img-wrapper:hover > .content.slide-right {
+    transform: translateX(0);
+  }
+  
+  .img-wrapper > .content.slide-down {
+    transform: translateY(-100%);
+  }
+  .img-wrapper:hover > .content.slide-down {
+    transform: translateY(0);
+  }
+  
+  .img-wrapper > .content.slide-up {
+    transform: translateY(100%);
+  }
+  .img-wrapper:hover > .content.slide-up {
+    transform: translateY(0);
+  }
+  
+  /* ------------------------------------------------------------ PAGE CONTACT -----------------------------------------------------------*/
+  
+  .box1
+  {
+    text-align: center;
+   
+  
+  }
+  
+  .box1 img
+  {
+    width: 10%;
+  }
+  
+  
+  .form
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  
+  .form .col-md-3
+  {
+    padding: 2%;
+    border-radius: 1%; 
+  }
+  
+/*----------------------------------------------------------------------------------------------------*/
+
+.reveal-loaded .reveal [class*="reveal-"] {
+    opacity: 0!important;
+    animation: none!important;
+    transition: 0s!important;
+  }
+  
+  .reveal-loaded [class*="reveal-"]{
+    animation: revealAnimation 1s cubic-bezier(.5, 0, 0, 1) both;
+  }
+  
+  .reveal-loaded .reveal-2 {
+    animation-delay: .1s;
+  }
+  
+  .reveal-loaded .reveal-3 {
+    animation-delay: .2s;
+  }
+  
+  .reveal-loaded .reveal-4 {
+    animation-delay: .3s;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .reveal-loaded  [class*="reveal-"] {
+      animation: none!important;
+    }
+  }
+  
+  @keyframes revealAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
