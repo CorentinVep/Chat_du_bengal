@@ -46,10 +46,6 @@ section.one {
   justify-content: center;
 }
 
-.carousel-item {
-  height: 60vh;
-}
-
 .bandeau {
   position: relative;
   height: 50vh;
@@ -97,6 +93,10 @@ section.one {
   display: flex !important;
   flex-basis: auto;
   justify-content: end;
+}
+
+.navbar a:hover {
+  color: #F07844;
 }
 
 /*---------------------------------FOOTER --------------------------------*/
@@ -161,6 +161,10 @@ footer img {
   text-align: end !important;
 }
 
+.carousel-item {
+  height: 60vh;
+}
+
 .carousel-item img {
   position: absolute;
   top: -9999px;
@@ -182,7 +186,7 @@ footer img {
   height: 50vh;
 }
 
-/*--------------------------------------------------------------------PAGE GALLERY CHATS ----------------------------------------------------------*/
+/*--------------------------------------------------------------------PAGE GALLERIE CHATS ----------------------------------------------------------*/
 .gallery {
   padding: 50px 0px;
 }
@@ -273,6 +277,11 @@ footer img {
 
 .img-wrapper:hover > .content.slide-up {
   transform: translateY(0);
+}
+
+/* ------------------------------------------------------------ PAGE NOS CONSEILS-----------------------------------------------------------*/
+.menu_content {
+  align-items: center;
 }
 
 /* ------------------------------------------------------------ PAGE CONTACT -----------------------------------------------------------*/
