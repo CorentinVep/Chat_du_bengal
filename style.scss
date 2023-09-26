@@ -18,14 +18,13 @@ body
 }
 
 
-    
 
 .box-img1 img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 500px;
-  }
+}
   
 section.one {
     padding: 50px 0px;
@@ -45,29 +44,27 @@ opacity: 0.5;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
+}
   
-  .row {
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     justify-content: center;
-  }
+}
+ 
   
-  .carousel-item {
-    height: 60vh;
-  }
-  
-  .bandeau {
+.bandeau {
     position: relative;
     height: 50vh;
     overflow: hidden;
     background-color: #FEFEFE;
-  }
+}
   
   
-  .bandeau img {
+.bandeau img 
+{
     position: absolute;
     top: -9999px;
     left: -9999px;
@@ -75,49 +72,50 @@ opacity: 0.5;
     bottom: -9700px;
     margin: auto;
     width: 150vh;
-  }
+}
   
-  .breadcrumb a
-  {
-    text-decoration: none;
-    color: orange;
-  }
+.breadcrumb a
+{
+  text-decoration: none;
+  color: orange;
+}
   
-  .navigation {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.navigation
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   
-  .box2 {
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    padding: 50px 0px;
-  }
+.box2 {
+   position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0px;
+}
   
   
 
 /*--------------------------------  HEADER --------------------------------*/
 .navbar-expand-lg 
 {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    background-color: white;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background-color: white;
 }
   
 .navbar-expand-lg .navbar-collapse 
 {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: end;
-  }
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: end;
+}
 
 
 
   
-  /*---------------------------------FOOTER --------------------------------*/
+/*---------------------------------FOOTER --------------------------------*/
   footer ul 
   {
     padding: 0;
@@ -193,6 +191,12 @@ opacity: 0.5;
     text-align: end !important;
 }
   
+ 
+.carousel-item {
+  height: 60vh;
+}
+
+
 .carousel-item img
 {
     position: absolute;
