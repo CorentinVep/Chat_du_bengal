@@ -306,6 +306,25 @@ footer img {
   border-radius: 1%;
 }
 
+.col-md-12
+{
+  color: #F07844;
+  text-align: center;
+}
+
+.img-form 
+{
+  margin: 0px -9.5rem 0px 0px;
+  padding: 1.5rem 10.5rem 10.5rem 10.5rem;
+}
+
+.img-form img
+{
+  height: 80vh;
+}
+
+
+
 /*----------------------------------------------------------------------------------------------------*/
 .reveal-loaded .reveal [class*=reveal-] {
   opacity: 0 !important;
